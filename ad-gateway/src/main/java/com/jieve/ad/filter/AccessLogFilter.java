@@ -41,5 +41,5 @@ public class AccessLogFilter extends ZuulFilter {
         log.info("uri: " + uri + ", duration: " + duration/100 + "ms");
         return null;
 
-        }
+    }
 }
